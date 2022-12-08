@@ -121,7 +121,7 @@ function formDateSubmitHandler(e) {
     saveToLocalStroage(bookmarksList);
     loadBookMarkDataDom(bookmarksList)
     formElem.reset();
-
+    modalContainerElem.hidden = true;
 }
 
 formElem.addEventListener('submit', formDateSubmitHandler)

@@ -132,9 +132,9 @@ a:hover {
     }
     .container-items
     {
-        height: 20px;
-        width: 110px;
-        padding: 10px 0px;
+        height: auto;
+        width: auto;
+        padding: 10px 10px;
     }
     .container
     {
